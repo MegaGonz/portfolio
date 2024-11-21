@@ -1,6 +1,5 @@
 import { ArrowIcon } from '@/app/components/icons'
 import Image from 'next/image'
-import { name, about, bio, dark_contact } from 'lib/info'
 import Link from 'next/link'
 
 export const metadata = {
@@ -26,25 +25,14 @@ export default async function HomePage() {
   return (
     <section className="max-w-screen-lg mx-auto px-4 py-8">
       <div className="flex flex-col ">
-        <h1 className="font-serif text-3xl font-bold">{name}</h1>
         <span className="font-light">Full Stack Engineer</span>
         <span className="font-extralight">San Francisco, California</span>
       </div>
       <p className="my-5 max-w-[600px] text-neutral-800 dark:text-neutral-200">
-        {about()}
       </p>
       <div className="flex items-start md:items-center my-8 flex-col md:flex-row">
-        <Image
-          alt={name}
-          className=" grayscale rounded-full"
-          src={dark_contact}
-          width={110}
-          placeholder="blur"
-          priority
-        />
       </div>
       <p className="my-5 max-w-[600px] text-neutral-800 dark:text-neutral-200 font-shantel">
-        {bio()}
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
