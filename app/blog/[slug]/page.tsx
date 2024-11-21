@@ -2,7 +2,6 @@ import { Mdx } from '@/app/components/mdx'
 import { allBlogs } from 'contentlayer/generated'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { Suspense } from 'react'
 import Balancer from 'react-wrap-balancer'
 
 export const dynamic = 'force-static'
