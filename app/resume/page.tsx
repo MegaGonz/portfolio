@@ -44,7 +44,7 @@ export default function Resume() {
             About Me
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Motivated and adaptable Full Stack Software Engineer with a Bachelor's degree in Computer Science and hands-on
+            Motivated and adaptable Full Stack Software Engineer with a Bachelor&apos;s degree in Computer Science and hands-on
             experience in application development. Proficient in Python, React, Node.js, and web development, with a proven ability
             to build interactive portfolio websites and deliver scalable solutions. Seeking an entry-level software engineering role
             to contribute to a development team, continue learning, and apply my technical skills to solve real-world problems.
