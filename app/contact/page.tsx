@@ -5,35 +5,12 @@ import {
   GitHubIcon,
   LinkedinIcon
 } from '@/app/components/icons'
-import Image from 'next/image'
-import { dark_contact, light_contact } from '@/lib/info'
 
-export const metadata = {
-  name: 'Adam Gonzalez',
-  description:
-    'Adam Gonzalez Contact Information for various social media sites'
-}
 
 export default function ContactPage() {
   return (
     <section className="bg-white dark:bg-[#667d9b] dark:border-white border-2 border-black rounded-lg shadow-lg p-6 space-y-6 dark:shadow-white">
       <div className="flex justify-center">
-        <Image
-          src={light_contact}
-          alt="Avatar"
-          className="rounded-full dark:hidden"
-          width={170}
-          priority
-          style={{ width: 'auto', height: 'auto' }}
-        />
-        <Image
-          src={dark_contact}
-          alt="Avatar"
-          className="rounded-full hidden dark:block"
-          width={190}
-          priority
-          style={{ width: 'auto', height: 'auto' }}
-        />
       </div>
       <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-900 justify-center">
         <span className="flex justify-center">Adam Gonzalez Jr</span>
