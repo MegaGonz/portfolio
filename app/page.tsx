@@ -2,8 +2,6 @@ import { ArrowIcon } from '@/app/components/icons'
 import Image from 'next/image'
 import { name, about, bio, dark_contact } from 'lib/info'
 import Link from 'next/link'
-import skillsPhoto from '@/public/images/homeImages/skills.png'
-import toolsPhoto from '@/public/images/homeImages/tools.png'
 
 export const metadata = {
   description: 'Developer, writer, and creator.',
@@ -62,11 +60,6 @@ export default async function HomePage() {
             crafting polished applications with a seamless blend of design and
             functionality.
           </p>
-          <Image
-            src={skillsPhoto}
-            alt="Skill"
-            className="self-center mt-2 md:w-[40%] md:h-[60%] w-[auto] h-[auto]"
-          />
         </div>
         <div className="dark:bg-[#667d9b] rounded-2xl flex flex-col dark:shadow-white border-8 shadow-black shadow-lg border-double border-black p-2 ">
           <span className="text-xl flex justify-center mb-2 mt-2 text-yellow-600 font-extrabold">
@@ -81,13 +74,6 @@ export default async function HomePage() {
             productive. Together, my core set of developer tools and others help
             me be productive.
           </p>
-          <div className="flex justify-center mt-auto">
-            <Image
-              src={toolsPhoto}
-              alt="temp"
-              className="self-center mt-2 md:w-[40%] md:h-[100%] w-[auto] h-[auto]"
-            />
-          </div>
         </div>
       </div>
       <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-500 dark:text-neutral-400 justify-between">
