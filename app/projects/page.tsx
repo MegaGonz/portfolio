@@ -49,58 +49,9 @@ export default function ProjectPage() {
           className="font-sans max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8"
           id="projects-info"
         >
-          <div className="grid grid-cols-1 gap-8">
-            {projects.map((project, index) => (
-              <article
-                key={index}
-                className="flex dark:bg-[#667d9b] bg-white border-2 border-gray-300 rounded-lg p-4 shadow-md dark:shadow-white shadow-black"
-              >
-                <div className="flex flex-col">
-                  <h2 className="text-center text-2xl font-bold dark:text-yellow-600 mb-4 leading-tight">
-                    {project.title}
-                  </h2>
-                  <div className="flex justify-center mb-4">
-                    {project.imgSrc && (
-                      <Image
-                        src={project.imgSrc}
-                        alt={`${project.title} screenshot`}
-                        className="rounded-lg"
-                        width={1000}
-                        height={1000}
-                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      />
-                    )}
-                    {project.videoSrc && (
-                      <video controls>
-                        <source
-                          src={project.videoSrc}
-                          width={400}
-                          height={400}
-                        />
-                      </video>
-                    )}
-                  </div>
-                  <div className="flex justify-between items-center">
-                    <Link
-                      href={project.githubLink}
-                      className="flex text-gray-700 dark:text-emerald-200 hover:scale-105 hover:text-red-400 items-center gap-3"
-                    >
-                      <GitHubIcon />
-                      Source Code
-                    </Link>
-                    <Link
-                      href={project.moreInfoLink}
-                      className="flex items-center text-gray-700 dark:text-emerald-200 hover:text-red-400 gap-3 hover:scale-105"
-                    >
-                      <BoxArrow /> More Info
-                    </Link>
-                  </div>
-                </div>
-              </article>
-            ))}
-          </div>
+          coming soon
         </section>
       </main>
     </section>
-  )
+  );
 }
