@@ -1,3 +1,4 @@
+import Link from 'next/link'
 export const metadata = {
   title: 'About',
   description: 'Freelance Web Developer info for about me section'
@@ -37,6 +38,17 @@ export default function AboutPage() {
           search.
         </p>
       </div>
+
+      <div className="flex justify-center">
+          <Link
+            className="flex items-center hover:text-neutral-200 dark:hover:text-neutral-200 transition-all border-4 rounded-lg border-black p-2 px-10 bg-black text-white text-lg font-bold"
+            rel="noopener noreferrer"
+            href="/resume"
+          >
+          Resume
+      </Link>
+      </div>
+      
     </section>
   )
-}
+};
