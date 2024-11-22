@@ -27,7 +27,7 @@ The website is built using the following technologies:
 
 1. Clone the repository to your local machine using Git
 
-2. Install requirements: `npm install`
+2. Install requirements: `pnpm install`
 
 3. Open the repository in your preferred code editor
 

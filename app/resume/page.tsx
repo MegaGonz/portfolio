@@ -8,21 +8,21 @@ export default function Resume() {
       <Link
         className="absolute top-5 left-5 bg-black text-white px-4 py-2 rounded-full flex items-center hover:bg-blue-300 transition"
         href="/about">
-          <span className="mr-2">About Me</span>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-5 h-5"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M11.25 4.5l7.5 7.5-7.5 7.5M19.5 12H4.5"
-            />
-          </svg>
+        <span className="mr-2">About Me</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth={1.5}
+          stroke="currentColor"
+          className="w-5 h-5"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M11.25 4.5l7.5 7.5-7.5 7.5M19.5 12H4.5"
+          />
+        </svg>
       </Link>
 
       {/* Main Container */}
