@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 489b89f (fixed for linting)
 
 export const metadata = {
   title: 'Projects',
