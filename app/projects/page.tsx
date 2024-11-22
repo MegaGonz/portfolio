@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> 489b89f (fixed for linting)
->>>>>>> 68f9f1814b9c2381b5b097089d567a3dba82a1b2
-
 export const metadata = {
   title: 'Projects',
   description: 'Freelance Web Developer.'
